@@ -1,113 +1,24 @@
-* {
-    box-sizing: border-box;
-  }
+/* Tambahkan padding dan jarak pada navbar */
+.navbar {
+    padding: 10px 15px; /* Tambahkan padding atas/bawah 10px dan kiri/kanan 15px */
+    background-color: #7c68eeb6;
+}
+
+.col-lg-8 .card:hover {
+    color: lightslategray;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
 
 body {
-    font-family: Arial;
-    padding: 10px;
-    background-color: #d0d0ff;
+    background-color: #d0d0ff; /* Ganti dengan warna latar belakang yang Anda inginkan */
 }
 
-.navigasi {
-    overflow: hidden;
-    background-color: #7B68EE;
+.list-group-item:hover {
+    color: lightslategray; /* Ganti dengan warna latar belakang yang Anda inginkan */
 }
 
-.navigasi a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navigasi a:hover {
-    background-color: 	#E6E6FA;
-    color: #7B68EE
-}
-
-.leftcolumn {   
-    float: left;
-    width: 70%;
-}
-
-.rightcolumn {
-    float: left;
-    width: 30%;
-    background-color: #d0d0ff;
-    padding-left: 20px;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.agenda {
-    background-color: #483D8B;
-    color: white;
-    text-align: left;
-    padding: 1px;
-    margin-bottom: 5%;
-    padding-left: 10px;
-}
-
-.agenda h3{
-    font-size: 12px;
-}
-
-.agenda p{
-    font-size: 11px;
-}
-
-.leftcolumn .card:hover h2{
-    color: #483D8B;
-}
-
-.agenda:hover{
-    background-color: #7B68EE;
-}
-
-img {
-    width: 100%;
-    height: auto;
-  }
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
+/* Tambahkan padding pada footer */
 .footer {
-    padding: 20px;
-    text-align: center;
-    background: #483D8B;
-    margin-top: 20px;
-    color: white;
-  }
-
-.footer a{
-    border-bottom: 1px solid;
+    padding: 20px; /* Tambahkan padding 20px ke semua sisi footer */
 }
-
-.footer a:hover{
-    color: #7B68EE;
-}
-
-@media screen and (max-width: 1000px) {
-    .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .navigasi a {
-      float: none;
-      width: 100%;
-    }
-  }
 
